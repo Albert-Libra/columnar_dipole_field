@@ -14,7 +14,7 @@
 ; :Output:        magnetic field, 1x3 array, unit: [nT]
 ;
 ; :History:
-; 17:38:34 2024-2-29 | Zhekai Luo | Describe the change
+; 17:38:34 2024-2-29 | Zhekai Luo | First Version
 ;-
 function columnar_dipole_field,r,r0=r0,b0=b0,tau1=tau1,tau2=tau2
   
