@@ -7,9 +7,9 @@
 ;
 ; :Keywords:
 ;    r0           the distance between the symmetry axis of the field to the Y axis, unit: [RE]
-;    b0           ajustment factor for the model
-;    tau1         tilt angle 1, unit: [DEG]
-;    tau2         tilt angle 2, unit: [DEG]
+;    b0           ajustment factor for the model, unit: [nT RE^2]
+;    tau1         elevation angle 1, unit: [DEG]
+;    tau2         elevation angle 2, unit: [DEG]
 ;
 ; :Output:        magnetic field, 1x3 array, unit: [nT]
 ;
