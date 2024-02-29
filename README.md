@@ -15,4 +15,4 @@ Keywords:
 - `tau1`: elevation angle 1, unit: degree
 - `tau2`: elevation angle 2, unit: degree
 
-Output: the outer magnetic field, unit: nT 
+Output: the outer magnetic field, 1x3 array, unit: nT 
