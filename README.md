@@ -18,4 +18,4 @@ Keywords:
 Output: the outer magnetic field, 1x3 array, unit: nT 
 
 This is an example code: 
-`outer_b = columnar_dipole_field([[5,3,4], r0=11, b0=18000, tau1=1, tau2=22)`
+`outer_b = columnar_dipole_field([[5],[3],[4]], r0=11, b0=18000, tau1=1, tau2=22)`
