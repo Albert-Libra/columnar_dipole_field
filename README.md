@@ -1,6 +1,7 @@
 # Columnar Dipole Field
-This is a mathematical model for the approximate calculation of the external field of the magnetosphere. The model is constructed in a Cartisian coordinates system (see the blue axes in the following figure) located at the $+X$ direction from the original coordinates, with a distance of $r_0$ and an elevation angle $\tau_1$. The coordinates system has a $y$ axis parallel to the $Y$ axis of the original coordinates system and has an elevation angle $\tau_2$ from its origin's direction.
+This is a mathematical model for the approximate calculation of the external field of the magnetosphere. The model is constructed in a Cartisian coordinates system (see the blue axes in Figure 1) located at the $+X$ direction from the original coordinates, with a distance of $r_0$ and an elevation angle $\tau_1$. The coordinates system has a $y$ axis parallel to the $Y$ axis of the original coordinates system and has an elevation angle $\tau_2$ from its origin's direction.
 <img width="988" alt="image" src="https://github.com/LuoZhekai/columnar_dipole_field/assets/28833193/c9a6a5df-125f-4375-8cfb-73393b0ae835">
+<p align= center>Figure 1. The coordinates system and parameters about the magnetic field model</p>
 
 The magnetic field is expressed in the Euler potential $$\vec B=\nabla\alpha\times\nabla\beta$$ where $$\alpha=\frac{b_0\cos^2\theta}{\rho}$$ and $$\beta=y$$ The $\rho$ is the distance to the $y$ axis, the $\theta$ is the elevation angle from the $-x$ direction, and the $b_0$ is an adjustment factor. 
 
